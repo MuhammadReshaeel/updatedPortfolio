@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box, Flex, Text, VStack } from '@chakra-ui/react';
-// import { Button, SimpleGrid } from '@chakra-ui/react';
-// import { FaGithub } from 'react-icons/fa';
+import { Button, SimpleGrid } from '@chakra-ui/react';
+import { FaGithub } from 'react-icons/fa';
 import { NextSeo } from 'next-seo';
 import LineHeading from '@/components/LineHeading';
-// import RepoCard from '@/components/RepoCard';
+import RepoCard from '@/components/RepoCard';
 import PinnedProjects from '@/components/PinnedProjects';
 import { pinnedRepos } from '@/data/pinnedRepos';
 
@@ -28,7 +28,7 @@ function Projects({ repos = [] }) {
                             />
                         ))}
                     </VStack>
-                    {/* <LineHeading fontSize={{ base: `5xl`, lg: `5xl` }} textAlign='center'>
+                    <LineHeading fontSize={{ base: `5xl`, lg: `5xl` }} textAlign='center'>
                         Repositories
                     </LineHeading>
                     <Text mt={3}>A list of all of the public repositories on my GitHub.</Text>
@@ -43,9 +43,9 @@ function Projects({ repos = [] }) {
                         leftIcon={<FaGithub />}
                     >
                         View My Profile
-                    </Button> */}
+                    </Button>
                 </Flex>
-                {/* <SimpleGrid
+                <SimpleGrid
                     mt={10}
                     columns={{ base: 1, md: 2 }}
                     width='full'
@@ -65,16 +65,16 @@ function Projects({ repos = [] }) {
                         .map((repo, index) => (
                             <RepoCard key={index.toString()} repo={repo} i={index} />
                         ))}
-                </SimpleGrid> */}
+                </SimpleGrid>
             </Box>
         </>
     );
 }
 
-// export async function getStaticProps() {
-//     const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/github`);
-//     const { stars, repos, followers } = await response.json();
-//     return { props: { stars, repos, followers, revalidate: 600 } };
-// }
+export async function getStaticProps() {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/github`);
+    const { stars, repos, followers } = await response.json();
+    return { props: { stars, repos, followers, revalidate: 600 } };
+}
 
 export default Projects;
