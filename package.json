@@ -11,10 +11,10 @@
     "starter"
   ],
   "scripts": {
-    "dev": "next",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider && next",
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
