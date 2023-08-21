@@ -10,7 +10,7 @@ export default async function handler(req, res) {
         const data = {
             to: process.env.PRIMARY_EMAIL,
             from: process.env.SUPPORT_EMAIL,
-            subject: 'Contact Form Message',
+            subject: 'Contact Form Portfolio',
             text: message,
             html: message.replace(/\r\n/g, '<br>')
         };
