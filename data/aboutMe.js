@@ -13,11 +13,11 @@ const info = (props) => [
     },
     {
         input: 'interests',
-        result: '["Web Development", "Travelling", "Gaming", "Photography"]',
+        result: '["Web Development", "Travelling", "Gaming"]',
     },
     {
         input: 'education',
-        result: '"Bachelor of Science in Computer Science - COMSATS"',
+        result: '"Bachelor of Science in Software Engineering - COMSATS"',
     },
     {
         input: 'Languages',
@@ -33,7 +33,7 @@ const info = (props) => [
     },
     {
         input: 'DevOps',
-        result: '["EC2", "Docker", "Nginx", "Route 53", "RDS", "CloudFront", "Herku", "DigitalOcean"]',
+        result: '["EC2", "Docker", "Nginx", "Route 53", "RDS", "CloudFront", "Heroku", "DigitalOcean"]',
     },
     {
         input: 'contactMe',

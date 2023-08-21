@@ -1,7 +1,7 @@
 export const educationData = [
     {
         university: 'COMSATS University Islamabad',
-        degree: 'Bachelors in Computer Science (BSCS)',
+        degree: 'Bachelors in Software Engineering (BSSE)',
         duration: 'Sep 2016 - Jul 2020',
         location: 'Lahore, Punjab, Pakistan'
     },

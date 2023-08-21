@@ -4,7 +4,7 @@ export const experienceData = [
         location: 'Lahore District, Punjab, Pakistan',
         designation: 'Senior Software Engineer',
         type: 'Full Time',
-        duration: 'Jan 2021 - Present'
+        duration: 'Feb 2023 - Present'
     },
     {
         company: '3SSOULTIONS',
