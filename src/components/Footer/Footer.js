@@ -34,7 +34,7 @@ const Footer = () => {
                 align='center'
             >
                 <Text color={useColorModeValue(`gray.800`, `white`)} alignSelf='center' mx='auto' fontSize='sm'>
-                    © {date} Hasan Afzal{" "}
+                    © {date} Muhammad Reshaeel{" "}
                 </Text>
                 <Text display='flex' alignSelf='center' mx='auto'>
                     Built with:

@@ -50,23 +50,23 @@ export default function MyApp({Component, pageProps}) {
                 <meta name="msapplication-TileColor" content="#ffffff"/>
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
                 <meta name="theme-color" content="#2bae66"/>
-                <meta name='application-name' content='Hasan Afzal Portfolio App' />
+                <meta name='application-name' content='Muhammad Reshaeel Portfolio App' />
             </Head>
             <DefaultSeo
-                defaultTitle='Hasan Afzal'
-                titleTemplate='%s | Hasan Afzal'
+                defaultTitle='Muhammad Reshaeel'
+                titleTemplate='%s | Muhammad Reshaeel'
                 openGraph={{
-                    title: `Hasan Afzal`,
+                    title: `Muhammad Reshaeel`,
                     type: `website`,
-                    site_name: `Hasan Afzal`,
+                    site_name: `Muhammad Reshaeel`,
                     images: [
                         {
-                            url: `https://hasan-afzal.vercel.app/static/images/profile.png`,
+                            url: `https://hasan-afzal.vercel.app/static/images/profile.jpg`,
                             alt: `Profile Picture`,
                         },
                     ],
                 }}
-                description="Hi, I'm Hasan Afzal!.  I'm a computer scientist who is passionate about developing state-of-the-art applications, building great user experiences by bringing simplicity to life and constantly learning"
+                description="Hi, I'm Muhammad Reshaeel!.  I'm a computer scientist who is passionate about developing state-of-the-art applications, building great user experiences by bringing simplicity to life and constantly learning"
             />
             <ChakraProvider theme={theme}>
                 {loading ? (

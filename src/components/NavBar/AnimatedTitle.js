@@ -11,7 +11,7 @@ const AnimatedTitle = () => (
         textAlign='center'
         href='#'
     >
-        Hasan Afzal
+        Muhammad Reshaeel
         <chakra.svg
             className='path-under'
             position='absolute'

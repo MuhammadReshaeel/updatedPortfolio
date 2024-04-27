@@ -1,35 +1,19 @@
 export const pinnedRepos = [
     {
-        id: `quickcard.me`,
-        stack: ['Ruby on Rails', 'React', 'PostgreSQL'],
-        name: `QuickCard`,
-        deployedLink: 'https://quickcard.me/',
-        image: '/static/images/quickcard.png',
-        longDescription: `QuickCard synergizes with over 100 major shipping carriers, like FedEx and DHL, streamlining label creation. With powerful API integrations, the platform enables merchants to facilitate real-time payments, handle ACH, issue E-checks and invoices with ease, and distribute payments via diverse channels. including Push-to-Card. Additionally, the system bolsters protection against cardholder fraud minimizes chargebacks, and enhances chargeback resolution. My contributions encompassed a significant speed enhancement by optimizing code, refining queries, and introducing new features. `,
-    },
-    {
-        id: `upcomingevents.com`,
-        stack: ['Ruby on Rails', 'MySQL'],
-        name: `UpcomingEvents`,
-        deployedLink: 'https://www.upcomingevents.com/',
-        image: '/static/images/upcomingevents.png',
-        longDescription: `Played a crucial role in developing and refining an all-encompassing event management platform, aimed at simplifying the event hosting process globally. I was pivotal in optimizing database queries to enhance performance. Additionally, I introduced features such as third-party website integrations, enabling event postings on external platforms while ensuring seamless event management across both our site and third-party sites. I diligently addressed and rectified numerous bugs, enhancing stability and user experience. Users can publish events, sell tickets via diverse payment gateways like Stripe and PayPal, and benefit from features such as prompt refunds and event notifications. The platform also boasts an intuitive admin portal for comprehensive event organization and ticket management.`,
-    },
-    {
         id: `fazier.com`,
         stack: ['Next.js', 'NodeJS', 'ExpressJS', 'MongoDB'],
         name: `Fazier`,
         deployedLink: 'https://fazier.com/',
         image: '/static/images/fazier.png',
-        longDescription: `Leading a team of 3, and Architected from the ground up, I meticulously designed a scalable database envisioning substantial future user growth. Employing best coding practices, I incorporated SSR and SSG for enhanced SEO. Users can launch products, akin to ProductHunt, and create company profiles reminiscent of LinkedIn. They can upvote launches, and follow topics, companies, or peers. An admin dashboard facilitates featuring launches and user management. The platform also showcases 'TopTools', ads, offers comprehensive analytics for an improved user experience, and provides recommendations based on user interactions, blending diverse functionalities to create a multifaceted social media experience.`,
+        longDescription: `Worked on Fazier as a Next js developer and built the architecture of this project from scratch. Employing best coding practices, I incorporated SSR and SSG for enhanced SEO. Users can launch products, akin to ProductHunt, and create company profiles reminiscent of LinkedIn. They can upvote launches, and follow topics, companies, or peers. An admin dashboard facilitates featuring launches and user management. The platform also showcases 'TopTools', ads, offers comprehensive analytics for an improved user experience, and provides recommendations based on user interactions, blending diverse functionalities to create a multifaceted social media experience.`,
     },
     {
         id: `piqosity.com`,
-        stack: ['Ruby on Rails', 'React', 'Neo4j'],
+        stack: ['Ruby on Rails', 'Angular 14', 'Neo4j'],
         name: `Piqosity`,
         deployedLink: 'https://www.piqosity.com/',
         image: '/static/images/piqosity.png',
-        longDescription: `I led a team of 5 in developing and enhancing Piqosity. It's engaged in refining and expanding an integrated Learning Management and Curriculum Delivery Platform. This platform offers specialized test prep for subjects such as Math, English, and exams like ACT, SAT, and ISEE. It boosts student outcomes through a virtual tutor, intuitive lessons, and adaptive practices. My core contributions involved dramatically improving platform speed via code optimization, query refinement, and the rollout of new features. A notable achievement was the crafting of dedicated dashboards for teachers and students.`,
+        longDescription: `I worked on Piqosity as an Angular developer. This platform offers specialized test prep for subjects such as Math, English, and exams like ACT, SAT, and ISEE. It boosts student outcomes through a virtual tutor, intuitive lessons, and adaptive practices. My core contributions involved dramatically improving platform speed via code optimization, query refinement, and the rollout of new features. A notable achievement was the crafting of dedicated dashboards for teachers and students.`,
     },
     {
         id: `a1covidtesting.co.uk`,
@@ -40,14 +24,6 @@ export const pinnedRepos = [
         longDescription: `As a core team member on this UK-focused health-tech platform, I led the transition from WordPress to MERN for efficient COVID-19 test kit sales. Integrated official UK lab APIs for instant results and Stripe for payments. Managed data migration and introduced an admin dashboard for kit/result management. Built on MERN stack.`,
     },
     {
-        id: `app.etyme.com`,
-        stack: ['Ruby on Rails', 'PostgreSQL'],
-        name: `Etyme`,
-        deployedLink: 'https://app.etyme.com/',
-        image: '/static/images/etyme.png',
-        longDescription: `Engaged as a key developer for an advanced HR management tool streamlining recruitment processes. Facilitated companies to register and outsource employees with individualized profiles. Spearheaded the intricate chat feature enabling HRs to engage, shortlist, and manage recruitment stages, integrated with real-time online/offline user status via Action Cable and Livestream. Leveraged the Bullet Train template to innovate features and rectify bugs per client specifications.`,
-    },
-    {
         id: `thekiteprogram.com`,
         stack: ["MongoDB", "ExpressJS", "NodeJS", "ReactJS"],
         name: `TheKiteProgram`,
@@ -55,12 +31,4 @@ export const pinnedRepos = [
         image: '/static/images/thekiteprogram.png',
         longDescription: `Leading a team of 3, I spearheaded the development of "TheKiteProgram" from its inception to deployment on EC2. Inspired by Blogger.com but tailored for mobile users, this application enables users to pen down 'kites'—articles for the public to read. While the backend and the admin panel were crafted using Ruby on Rails, the mobile application was developed in Flutter. Users can seamlessly create content, cater to their unique audiences, and gain insights through a detailed admin panel. Additionally, I managed the meticulous task of data migration from the previous database, ensuring no information loss.`,
     },
-    {
-        id: `thecondocanopy.com`,
-        stack: ['Ruby on Rails', 'PostgreSQL', 'Textract'],
-        name: `CondoCanopy`,
-        deployedLink: 'https://thecondocanopy.com/',
-        image: '/static/images/thecondocanopy.png',
-        longDescription: `Solely developed from scratch, "TheCondoCanopy" caters to enterprise users, offering an advanced document management solution. Users can swiftly upload documents, in varied formats, up to 5GB in size. Harnessing the power of Amazon S3 for storage, the platform ensures rapid upload speeds. Notably, I implemented Textract to accurately extract and structure data from documents. This information, once processed, is then stored in the database. Furthermore, to guarantee instantaneous and seamless document searches, I integrated ElasticSearch, ensuring users can access their data in real time without any delays.`,
-    }
 ];

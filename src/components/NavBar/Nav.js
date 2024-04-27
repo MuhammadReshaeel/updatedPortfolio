@@ -144,7 +144,7 @@ function Nav() {
                                     }}
                                     color={colorMode === 'light' ? 'gray.900' : 'white'}
                                 >
-                                   Hasan Afzal
+                                   Muhammad Reshaeel
                                 </ChakraLink>
                             )}
                         </Link>

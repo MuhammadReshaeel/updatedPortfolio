@@ -17,33 +17,33 @@ const info = (props) => [
     },
     {
         input: 'education',
-        result: '"Bachelor of Science in Software Engineering - COMSATS"',
+        result: '"Bachelors in Computer Science - GCU-Lahore"',
     },
     {
         input: 'Languages',
-        result: '["Ruby", "Javascript", "Typescript"]',
+        result: '["Javascript", "Typescript"]',
     },
     {
         input: 'Frameworks',
-        result: '["Ruby on Rails", "ReactJS", "Node", "ExpressJS", "NextJS"]',
+        result: '[ReactJS", "NextJS", "Angular"]',
     },
-    {
-        input: 'Databases',
-        result: '["MySQL", "PostgreSQL", "MongoDB", "Neo4j", "SQLITE"]',
-    },
-    {
-        input: 'DevOps',
-        result: '["EC2", "Docker", "Nginx", "Route 53", "RDS", "CloudFront", "Heroku", "DigitalOcean"]',
-    },
+    // {
+    //     input: 'Databases',
+    //     result: '["MySQL", "PostgreSQL", "MongoDB", "Neo4j", "SQLITE"]',
+    // },
+    // {
+    //     input: 'DevOps',
+    //     result: '["EC2", "Docker", "Nginx", "Route 53", "RDS", "CloudFront", "Heroku", "DigitalOcean"]',
+    // },
     {
         input: 'contactMe',
         result: `[
           "<a style="${style(
             props
-        )}" rel="noopener" href="https://github.com/hasanafzal8485" target="_blank">Github</a>",
+        )}" rel="noopener" href="https://github.com/MuhammadReshaeel" target="_blank">Github</a>",
           "<a style="${style(
             props
-        )}" rel="noopener" href="https://www.linkedin.com/in/hasan-afzal-full-stack-developer/" target="_blank">LinkedIn</a>"]`,
+        )}" rel="noopener" href="https://www.linkedin.com/in/muhammad-reshaeel-front-end-engineer/" target="_blank">LinkedIn</a>"]`,
     },
 ];
 

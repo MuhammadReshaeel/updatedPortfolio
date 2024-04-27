@@ -75,7 +75,7 @@ export default function Contact() {
                                                             _hover={{ color: 'brand.600', textDecoration: 'none' }}
                                                             leftIcon={<MdPhone color="brand.300" size="20px"
                                                                 _hover={{ color: 'brand.600' }} />}>
-                                                            +92 302 6255627
+                                                            +92 334 9897007
                                                         </Button>
                                                     </Link>
                                                     <Link href='mailto: hasanafzal8485@gmail.com' passHref>
@@ -89,7 +89,7 @@ export default function Contact() {
                                                             _hover={{ color: 'brand.600', textDecoration: 'none' }}
                                                             leftIcon={<MdEmail color="brand.300" size="20px"
                                                                 _hover={{ color: 'brand.600' }} />}>
-                                                            hasanafzal8485@gmail.com
+                                                            reshaeelnisar71@gmail.com
                                                         </Button>
                                                     </Link>
                                                     <Link
@@ -178,7 +178,7 @@ export default function Contact() {
                                                                     </InputLeftElement>
                                                                     <Input type="text" size="md"
                                                                         name="name"
-                                                                        placeholder="Hasan Afzal"
+                                                                        placeholder="Muhammad Reshaeel"
                                                                         {...register('name', { required: "Name is required" })}
                                                                     />
                                                                 </InputGroup>
@@ -195,7 +195,7 @@ export default function Contact() {
                                                                         <MdEmail color="gray.800" />
                                                                     </InputLeftElement>
                                                                     <Input type="email" size="md" name="email"
-                                                                        placeholder="hasanafzal8485@gmail.com"
+                                                                        placeholder="reshaeelnisar71@gmail.com"
                                                                         {...register('email', {
                                                                             required: "Email is required",
                                                                             pattern:

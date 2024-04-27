@@ -1,20 +1,20 @@
 export const educationData = [
     {
-        university: 'COMSATS University Islamabad',
-        degree: 'Bachelors in Software Engineering (BSSE)',
-        duration: 'Sep 2016 - Jul 2020',
+        university: 'GCU Lahore',
+        degree: 'Bachelors in Computer Science (BSSE)',
+        duration: 'Sep 2018 - Jul 2022',
         location: 'Lahore, Punjab, Pakistan'
     },
     {
-        university: 'Punjab College',
+        university: 'Islamia College Civil Lines',
         degree: 'Intermediate (FSc Pre Engineering)',
-        duration: 'Jun 2014 - Apr 2016',
-        location: 'Gujranwala, Punjab, Pakistan'
+        duration: 'Jun 2016 - Apr 2018',
+        location: 'Lahore, Punjab, Pakistan'
     },
     {
-        university: 'Matta Virkan High School',
+        university: 'Saint Anthonys High School',
         degree: 'Matriculation (Science)',
-        duration: 'Sep 2012 - May 2014',
-        location: 'Gujranwala, Punjab, Pakistan'
+        duration: 'Sep 2014 - May 2016',
+        location: 'Lahore, Punjab, Pakistan'
     }
 ]
